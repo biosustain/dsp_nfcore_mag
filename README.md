@@ -157,7 +157,8 @@ All MultiQC outputs are versioned and stored alongside the pipeline run, ensurin
 	-	Keep parameter changes documented for reproducibility
 	-	Validate results using the MultiQC summaries rather than individual tool outputs
 	-	Double check the path names of every input file 
-  -	Metadata file better to be place on the results folder
+	-	Metadata file better to be place on the results folder
+ 
 	
 
   
