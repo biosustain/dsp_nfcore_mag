@@ -8,7 +8,7 @@ This section documents parameter changes, computational considerations, and prac
 ## Disclaimer
 
 This is **not an official nf-core repository**.  
-It is a personal/community-maintained resource intended to share practical experience and workflow notes.
+Please visit official documentation for further instructions: https://nf-co.re/mag/5.2.0/
 
 ### Modified parameters
 
