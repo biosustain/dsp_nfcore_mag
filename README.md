@@ -68,7 +68,7 @@ Correct formatting of metadata files is essential for successful pipeline execut
 - Ensure consistent use of delimiters (tabs for `.tsv`)
 - Double-check headers and sample names for exact matches with input files
 
-A simple text editor (e.g. `nano`, `vim`]], VS Code) is recommended to prevent formatting issues.
+A simple text editor (e.g. `nano`, VS Code) is recommended to prevent formatting issues.
 
 ---
 
