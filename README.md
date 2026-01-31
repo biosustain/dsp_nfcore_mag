@@ -26,7 +26,7 @@ All parameter changes were passed explicitly via the `params` configuration in S
 
 ## Computationally intensive steps
 
-Some processes in `nf-core/mag` are significantly more computationally demanding than others and should be scheduled on nodes with higher memory and CPU availability:
+Some processes (while having lots of data) in `nf-core/mag` are significantly more computationally demanding than others and should be scheduled on nodes with higher memory and CPU availability:
 
 - **Assembly (MEGAHIT / SPAdes)**
   - High memory usage, especially for co-assemblies
@@ -37,7 +37,7 @@ Some processes in `nf-core/mag` are significantly more computationally demanding
   - Running multiple binning tools in parallel substantially increases resource demands
 
 
-For these steps, it is recommended to use nodes with increased RAM and multiple CPUs. Less demanding steps (e.g. QC, annotation summaries) can safely run on standard compute nodes.
+For these steps, it is recommended to use nodes with increased RAM and multiple CPUs. **NOTE** : If paused or failed, the pipeline can not be restarted using a different machine.
 
 ---
 
@@ -68,7 +68,7 @@ Correct formatting of metadata files is essential for successful pipeline execut
 - Ensure consistent use of delimiters (tabs for `.tsv`)
 - Double-check headers and sample names for exact matches with input files
 
-A simple text editor (e.g. `nano`, `vim`, VS Code) is recommended to prevent formatting issues.
+A simple text editor (e.g. `nano`, `vim`]], VS Code) is recommended to prevent formatting issues.
 
 ---
 
@@ -144,3 +144,12 @@ The MultiQC reports serve as a central quality control checkpoint, enabling:
 - Informed decisions for downstream analyses (e.g. filtering MAGs by quality)
 
 All MultiQC outputs are versioned and stored alongside the pipeline run, ensuring transparency and reproducibility.
+
+
+## General recommendations
+	-	Start with default parameters and modify only when necessary
+	-	Monitor resource usage through Seqera to identify heavy steps
+	-	Keep parameter changes documented for reproducibility
+	-	Validate results using the MultiQC summaries rather than individual tool outputs
+  - Double check the path names of every input file 
+  
