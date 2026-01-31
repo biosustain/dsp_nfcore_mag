@@ -1,0 +1,5 @@
+"sample,group,short_reads_1,short_reads_2,long_reads,short_reads_platform,long_reads_platform"
+"C1,0,az://seqera/raw/coffee/data/C1_1.fq.gz,az://seqera/raw/coffee/data/C1_2.fq.gz,,ILLUMINA,"
+"C2,0,az://seqera/raw/coffee/data/C2_1.fq.gz,az://seqera/raw/coffee/data/C2_2.fq.gz,,ILLUMINA,"
+"C3,0,az://seqera/raw/coffee/data/C3_1.fq.gz,az://seqera/raw/coffee/data/C3_2.fq.gz,,ILLUMINA,"
+"C4,0,az://seqera/raw/coffee/data/C4_1.fq.gz,az://seqera/raw/coffee/data/C4_2.fq.gz,,ILLUMINA,"

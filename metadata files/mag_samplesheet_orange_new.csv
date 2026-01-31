@@ -1,0 +1,5 @@
+﻿sample,group,short_reads_1,short_reads_2,long_reads,short_reads_platform,long_reads_platform
+O1,0,az://seqera/raw/orange/data/O1_1.fq.gz,az://seqera/raw/orange/data/O1_2.fq.gz,,ILLUMINA,
+O2,0,az://seqera/raw/orange/data/O2_1.fq.gz,az://seqera/raw/orange/data/O2_2.fq.gz,,ILLUMINA,
+O3,0,az://seqera/raw/orange/data/O3_1.fq.gz,az://seqera/raw/orange/data/O3_2.fq.gz,,ILLUMINA,
+O4,0,az://seqera/raw/orange/data/O4_1.fq.gz,az://seqera/raw/orange/data/O4_2.fq.gz,,ILLUMINA,

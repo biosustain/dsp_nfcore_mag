@@ -1,0 +1,7 @@
+sample,group,short_reads_1,short_reads_2,long_reads,short_reads_platform,long_reads_platform
+T1,0,az://seqera/raw/miso/batch1/T1_R1.fastq.gz,az://seqera/raw/miso/batch1/T1_R2.fastq.gz,,ILLUMINA,
+T2,0,az://seqera/raw/miso/batch1/T2_R1.fastq.gz,az://seqera/raw/miso/batch1/T2_R2.fastq.gz,,ILLUMINA,
+T3,0,az://seqera/raw/miso/batch1/T3_R1.fastq.gz,az://seqera/raw/miso/batch1/T3_R2.fastq.gz,,ILLUMINA,
+T4,0,az://seqera/raw/miso/batch1/T4_R1.fastq.gz,az://seqera/raw/miso/batch1/T4_R2.fastq.gz,,ILLUMINA,
+T6,0,az://seqera/raw/miso/batch1/T6_R1.fastq.gz,az://seqera/raw/miso/batch1/T6_R2.fastq.gz,,ILLUMINA,
+T8,0,az://seqera/raw/miso/batch1/T8_R1.fastq.gz,az://seqera/raw/miso/batch1/T8_R2.fastq.gz,,ILLUMINA,
