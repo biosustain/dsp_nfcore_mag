@@ -151,5 +151,7 @@ All MultiQC outputs are versioned and stored alongside the pipeline run, ensurin
 	-	Monitor resource usage through Seqera to identify heavy steps
 	-	Keep parameter changes documented for reproducibility
 	-	Validate results using the MultiQC summaries rather than individual tool outputs
-  - Double check the path names of every input file 
+	-	Double check the path names of every input file 
+	
+
   
