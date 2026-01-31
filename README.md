@@ -5,6 +5,11 @@ Repository for documentation, tips and tricks, best practices for running [nf-co
 
 This section documents parameter changes, computational considerations, and practical tips based on running `nf-core/mag` on the DTU Biosustain infrastructure using **Seqera Platform**.
 
+## Disclaimer
+
+This is **not an official nf-core repository**.  
+It is a personal/community-maintained resource intended to share practical experience and workflow notes.
+
 ### Modified parameters
 
 During execution, several parameters were adjusted from the default settings to better suit the dataset characteristics and available resources. These included:
